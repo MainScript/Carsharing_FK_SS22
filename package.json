@@ -1,0 +1,26 @@
+{
+  "name": "carsharing_fk_ss22",
+  "version": "0.1.0",
+  "description": "Softwaredesign Abgabe Felix Kakuschke SS22",
+  "main": "index.html",
+  "scripts": {
+    "build": "tsc --build",
+    "watch": "tsc --watch",
+    "clean": "tsc --build --clean",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Carsharing_FK_SS22"
+  },
+  "author": "Felix Kakuschke",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^4.7.4"
+  },
+  "devDependencies": {
+    "@types/jest": "^28.1.4",
+    "jest": "^28.1.2",
+    "ts-jest": "^28.0.5"
+  }
+}

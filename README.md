@@ -3,3 +3,6 @@
 ## First Start
 * Do `npm run build`
 * Open `index.html`
+
+## Tests
+* Run `npm run test`

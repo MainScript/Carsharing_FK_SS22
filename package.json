@@ -4,10 +4,9 @@
   "description": "Softwaredesign Abgabe Felix Kakuschke SS22",
   "main": "index.html",
   "scripts": {
-    "build": "tsc --build",
-    "watch": "tsc --watch",
-    "clean": "tsc --build --clean",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc --build && sass scss:css",
+    "watch": "tsc --watch && sass scss:css --watch",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
